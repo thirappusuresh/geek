@@ -1,0 +1,277 @@
+@media (max-width: 979px) {
+	.navbar-fixed-top {
+		position: fixed;
+	}
+}
+
+@media (min-width: 767px) {
+	#navli {
+		padding: 0 0 0px 30px;
+	}
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	.navbar-fixed-top {
+		margin: 0px;
+	}
+	
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (min-width: 979px) {
+	#navli {
+		padding: 0 0 0px 50px;
+	}
+			
+	#leftside_navbar {
+		display: none;
+	}
+	
+	#login_content {
+		margin-top: 100px;
+	}
+	
+	#span_content {
+		margin-left: 10px;
+		padding-right: 10px;
+	}	
+
+	#sidelogo {
+		width: 60px;
+		top: 41px;
+	}
+
+	#span_sidemenu {
+		width: 60px;
+	}
+	
+	#span_sidemenu img {
+		width: 60px;
+	}
+	.sf-vertical, .sf-vertical li {
+		width: 60px;
+	}
+
+	.sf-vertical li:hover ul,
+	.sf-vertical li.sfHover ul {
+		left:	60px; /* match ul width */
+		top:	0;
+	}
+
+	.sf-menu a {
+		padding: .75em 1em;
+	}
+}
+
+@media (max-width: 979px) {
+	
+	#leftside_navbar {
+		display: none;	
+	}
+	
+	#login_content {
+		margin-top: 120px;
+	}
+	
+	.nav-collapse, .nav-collapse.collapse { 
+		padding-left: 48px;
+	}
+	
+	#span_container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	#span_content {
+		margin-left: 10px;
+		padding-right: 10px;
+	}	
+
+	#sidelogo {
+		width: 40px;
+		top: 0px;
+	}
+
+	#span_sidemenu {
+		width: 40px;
+	}
+
+	#span_sidemenu img {
+		width: 40px;
+	}
+
+	.sf-vertical, .sf-vertical li {
+		width: 40px;
+	}
+
+	.sf-vertical li:hover ul,
+	.sf-vertical li.sfHover ul {
+		left:	40px; /* match ul width */
+		top:	0;
+	}
+
+	.sf-menu a {
+		padding: 3px 4px;
+	}
+}
+
+@media (max-width: 767px) {		
+	#jobs_content {
+		border: none;
+		padding-left: 0px;
+	}
+	
+	#top-menu {
+		position: static;
+		margin: 0 -20px 10px -20px;
+	}
+	
+	#top-menu .navbar-inner {
+		padding: 0px 20px;
+	}
+	
+	#gtop-menu {
+		position: static;
+		margin: 0 -20px 0 -20px;
+	}
+	
+	#gtop-menu .navbar-inner {
+		padding: 0px 20px;
+	}
+	
+	#nav { 
+		margin: 0 -20px 10px -20px;
+		padding: 0px 20px;	
+	}
+	
+	#hide {
+		display: none;
+	}
+	
+	#ghide {
+		display: none;
+	}
+	
+	#leftside_navbar {
+		display: block;	
+	}
+	
+	#span_sidemenu {
+		display: none;
+	}
+	
+	#leftside_navbar {
+		
+	}
+	
+	#login_content {
+		margin-top: 0px;
+	}
+
+	.sidebar-nav {
+		margin-left: 0px;
+	}	
+
+	.nav-collapse, .nav-collapse.collapse { 
+		padding-left: 28px;
+	}
+
+	#span_container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	#span_content {
+		border: none;
+		margin-left: 0px;
+		padding-right: 0px;
+	}
+
+	#sidelogo {
+		width: 30px;
+		top: 0px;
+	}
+
+	#span_sidemenu {
+		width: 30px;
+	}
+
+	#span_sidemenu img {
+		width: 30px;
+	}
+
+	.sf-vertical, .sf-vertical li {
+		width: 30px;
+	}
+
+	.sf-vertical li:hover ul,
+	.sf-vertical li.sfHover ul {
+		left:	30px; /* match ul width */
+		top:	0;
+	}
+
+	.sf-menu a {
+		padding: 0px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#leftside_navbar {
+		display: none;'	
+	}
+	
+	#span_container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	
+	#sidelogo {
+		width: 60px;
+		top: 41px;
+	}
+
+	#span_content {
+		margin-left: 0px;
+	}
+
+	#span_sidemenu {
+		width: 60px;
+	}
+
+	#span_sidemenu img {
+		width: 60px;
+	}
+
+	.sf-vertical, .sf-vertical li {
+		width: 60px;
+	}
+
+	.sf-vertical li:hover ul,
+	.sf-vertical li.sfHover ul {
+		left:	60px; /* match ul width */
+		top:	0;
+	}
+	
+	#span_content {
+		margin-left: 10px;
+		padding-right: 10px;
+	}	
+
+	.sf-menu a {
+		padding: .75em 1em;
+	}
+	
+	#login_content {
+		margin-top: 100px;
+	}
+}
+
+@media (max-width: 480px) {
+
+}
