@@ -19,8 +19,7 @@ As you might be knowing that there are two ways to install lampp stack, one is d
 		),
 
 6. Edit params.php to point to the root of the application
-	'base_location'=>'/opt/lampp/htdocs', ---if installed lampp stack directly
-	'base_location'=>'/var/www/geek', ---if installed seperately
+	'base_location'=>'Path to geek folder'
 
 8. Follow this step if you have installed apache seperatly otherwise skip it. Edit /etc/apache2/sites-available/default file to point DocumentRoot /var/www and enable AllowOverride to all so that we can use .htaccess to Rewrite index.php in url
 
